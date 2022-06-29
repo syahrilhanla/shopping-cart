@@ -23,7 +23,7 @@ const CardItem = ({ itemDetail }) => {
 			<div className='md:block md:w-max w-full h-[100%] flex justify-center items-center '>
 				<img
 					className='rounded-md shadow shadow-md shadow-slate-400'
-					src={`/${itemDetail.itemPic}`}
+					src={require(`../images/${itemDetail.itemPic}`)}
 					alt={itemDetail.displayName}
 					width='180px'
 				/>
